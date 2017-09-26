@@ -3,12 +3,17 @@
     <img src="./assets/logo.png">
     <router-view></router-view>
     <div class="test"></div>
+    <test></test>
   </div>
 </template>
 
 <script>
+import test from "./components/test"
 export default {
-  name: 'app'
+  name: 'app',
+  components:{
+    test
+  }
 }
 </script>
 

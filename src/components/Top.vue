@@ -1,9 +1,11 @@
+
 <template>
   <div class="top">
       <div>sdfsdfsdfef</div>
   </div>
 </template>
 <script>
+
 export default {
   name: 'top',
   data () {
